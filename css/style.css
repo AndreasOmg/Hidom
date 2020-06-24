@@ -1,0 +1,282 @@
+.container {
+  width: 1200px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jcsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@font-face {
+  font-family: 'San Francisco Text Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/SFUIText-Bold.eot") format("truetype"), url("/fonts/SFUIText-Bold.woff") format("woff"), url("/fonts/SFUIText-Bold.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'San Francisco Text Regular';
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/SFUIText-Regular.eot") format("truetype"), url("/fonts/SFUIText-Regular.woff") format("woff"), url("/fonts/SFUIText-Regular.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'San Francisco Text Light';
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/SFUIText-Light.eot") format("truetype"), url("/fonts/SFUIText-Light.woff") format("woff"), url("/fonts/SFUIText-Light.eot") format("embedded-opentype");
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header {
+  font-family: serif;
+  margin: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 69px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: San Francisco Text Bold;
+  font-size: 12px;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 99px;
+  height: 69px;
+  background: red;
+}
+
+.header-catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin-right: 80px;
+}
+
+.header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30%;
+}
+
+.header-info-tel {
+  text-decoration: none;
+}
+
+.header-info__lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-info__lang-ru {
+  margin-right: 10px;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: #fffefe;
+  font-family: San Francisco Text Bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-img {
+  background: url("img/navbarbgi.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 1904px;
+  background-size: cover;
+}
+
+.navbar-coop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.navbar-coop__logo {
+  height: 35px;
+  width: 35px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 26px;
+}
+
+.navbar-info {
+  font-family: 'San Francisco Text Regular';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 13px;
+  width: 50%;
+}
+
+.input {
+  height: 44px;
+  width: 645px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 151px;
+  height: 50px;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 3px;
+}
+
+.form {
+  padding-top: 43px;
+  padding-bottom: 43px;
+  background-color: #f5f6f9;
+}
+
+.form-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-text {
+  height: 44px;
+  width: 645px;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #f5f6f9;
+  font-family: 'San Francisco Text Regular';
+  font-size: 12px;
+  color: #333333;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: #d5d5d5;
+  margin-top: 30px;
+}
+
+.footer__item {
+  margin-bottom: 27px;
+}
