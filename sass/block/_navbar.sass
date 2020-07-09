@@ -8,18 +8,22 @@
     align-items: center
     justify-content: space-between
     &-img
-        background: url('img/navbarbgi.png')  
+        background: url('/img/navbarbgi.png')  
+        height: 600px
         background-position: 0 0
         background-repeat: no-repeat
         background-size: auto
-        width: 1904px
         background-size: cover
-
-        
+        @media (max-width: 425px)
+            background-size: cover
+            height: 208px
     &-coop
         display: flex
         align-items: center
         width: 50%
+        @media  ( max-width:768px )
+            display: none
+            
         &__logo
             height: 35px
             width: 35px
@@ -35,5 +39,32 @@
         display: flex
         justify-content: space-between
         font-size: 13px
-        width: 50%
-        
+        width: 100%
+        @media  ( max-width:768px )
+            font-size: 12px
+            justify-content: space-between
+        a
+            text-decoration: none
+            color: $main-white !important
+        &__item
+            transition:  0.3s
+            margin-top: 2px
+            border-bottom: 2px solid transparent
+            @media  ( max-width:768px )
+                // margin-right: 47px
+
+
+            &:hover
+                border-bottom: 2px solid $main-red 
+                transparent:
+
+
+@media (max-width: 425px)
+    .navbar
+        &-info
+            display: none
+        &-coop
+            display: flex
+            &__logo
+                width: 40%
+    
